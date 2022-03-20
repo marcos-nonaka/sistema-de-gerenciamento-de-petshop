@@ -1,0 +1,66 @@
+body {
+    background-color: #F2BD48;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2, p, table {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    border: solid;
+}
+
+#formulario-cadastro {
+    width: 100%;
+}
+
+#campo {
+    margin: 5px 25px;
+}
+
+#label-formulario {
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+#nome {
+    width: 65%;
+}
+
+#parentesco {
+    width: 19%;
+}
+
+input[type=button], [type=reset], [type=submit] {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    margin-right: 5px;
+    padding: 12px 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+input[type=button]:hover, [type=reset]:hover, [type=submit]:hover {
+    background-color: white;
+    color: black;
+}

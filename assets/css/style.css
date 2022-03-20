@@ -1,0 +1,91 @@
+body {
+    background-color:#F2BD48;
+}
+
+hr {
+    border: 4px solid;
+}
+
+#capa {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+#nav-menu img {
+    width: 55px;
+    height: 55px;
+    margin-left: 20px;
+}
+
+#img-menu {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#img-menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#img-menu li {
+    margin-right: 20px;
+}
+
+#img-menu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 216, 0);
+    padding: 5px;
+}
+
+#img-menu li a:hover {
+    background-color: rgb(255, 216, 0);
+    color: black;
+    padding: 20px 5px;
+    transition: 400ms;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2, p, table {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#campo {
+    text-align: center;
+}
+
+input[type=button], [type=submit] {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    margin-right: 5px;
+    padding: 12px 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+input[type=button]:hover, [type=submit]:hover {
+    background-color: white;
+    color: black;
+}
+
+#topo {
+    color: black;
+}
